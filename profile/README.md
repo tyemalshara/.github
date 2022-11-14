@@ -63,6 +63,14 @@
 <br>
 [infer_face_detection_kornia](https://github.com/Ikomia-hub/infer_face_detection_kornia)
 <br>
+[train_yolo_v5](https://github.com/Ikomia-hub/train_yolo_v5)
+<br>
+[infer_yolo_v5](https://github.com/Ikomia-hub/infer_yolo_v5)
+<br>
+[train_detectron2_tridentnet](https://github.com/Ikomia-hub/train_detectron2_tridentnet)
+<br>
+[infer_detectron2_tridentnet](https://github.com/Ikomia-hub/infer_detectron2_tridentnet)
+<br>
 
 ## Instance segmentation
 
@@ -79,12 +87,25 @@
 [train_torchvision_faster_rcnn](https://github.com/Ikomia-hub/train_torchvision_faster_rcnn)
 <br>
 [train_detectron2_deeplabv3plus](https://github.com/Ikomia-hub/train_detectron2_deeplabv3plus)
+<br>
+[train_transunet](https://github.com/Ikomia-hub/train_transunet)
+<br>
+[infer_transunet](https://github.com/Ikomia-hub/infer_transunet)
+<br>
+[train_detectron2_instance_segmentation](https://github.com/Ikomia-hub/train_detectron2_instance_segmentation)
+<br>
+[infer_detectron2_instance_segmentation](https://github.com/Ikomia-hub/infer_detectron2_instance_segmentation)
 
 ## Panoptic segmentation
 
 [train_yolop_v2](https://github.com/Ikomia-hub/train_yolop_v2)
 <br>
 [infer_yolop_v2](https://github.com/Ikomia-hub/infer_yolop_v2)
+<br>
+
+## Pose estimation
+
+[infer_detectron2_densepose](https://github.com/Ikomia-hub/infer_detectron2_densepose)
 <br>
 
 ## Text detection
@@ -102,3 +123,12 @@
 ## Tracking
 
 [infer_deepsort](https://github.com/Ikomia-hub/infer_deepsort)
+
+## Optical flow
+
+## Other
+
+[skimage_threshold](https://github.com/Ikomia-hub/skimage_threshold)
+<br>
+[skimage_morpho_snakes](https://github.com/Ikomia-hub/skimage_morpho_snakes)
+<br>
