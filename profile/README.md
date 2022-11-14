@@ -82,9 +82,9 @@
 
 ## Panoptic segmentation
 
-[train_yolo_pv2](https://github.com/Ikomia-hub/train_yolo_pv2)
+[train_yolo_pv2](https://github.com/Ikomia-hub/train_yolop_v2)
 <br>
-[infer_yolo_pv2](https://github.com/Ikomia-hub/infer_yolo_pv2)
+[infer_yolo_pv2](https://github.com/Ikomia-hub/infer_yolop_v2)
 <br>
 
 ## Text detection
