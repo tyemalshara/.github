@@ -31,6 +31,10 @@
 [dataset_pascal_voc](https://github.com/Ikomia-hub/dataset_pascal_voc)
 <br>
 [dataset_coco](https://github.com/Ikomia-hub/dataset_coco)
+<br>
+[dataset_wildreceipt](https://github.com/Ikomia-hub/dataset_wildreceipt)
+<br>
+[dataset_cwfid](https://github.com/Ikomia-hub/dataset_cwfid)
 
 ## Classification
 
@@ -50,6 +54,9 @@
 <br>
 [infer_torchvision_mnasnet](https://github.com/Ikomia-hub/infer_torchvision_mnasnet)
 <br>
+[infer_covidnet](https://github.com/Ikomia-hub/infer_covidnet)
+<br>
+[infer_inception_v3](https://github.com/Ikomia-hub/infer_inception_v3)
 
 ## Object detection
 
@@ -71,6 +78,27 @@
 <br>
 [infer_detectron2_tridentnet](https://github.com/Ikomia-hub/infer_detectron2_tridentnet)
 <br>
+[train_mmlab_detection](https://github.com/Ikomia-hub/train_mmlab_detection)
+<br>
+[infer_mmlab_detection](https://github.com/Ikomia-hub/infer_mmlab_detection)
+<br>
+[infer_detectron2_retinanet](https://github.com/Ikomia-hub/infer_detectron2_retinanet)
+<br>
+[train_detectron2_retinanet](https://github.com/Ikomia-hub/train_detectron2_retinanet)
+<br>
+[infer_detectron2_detection](https://github.com/Ikomia-hub/infer_detectron2_detection)
+<br>
+[train_detectron2_detection](https://github.com/Ikomia-hub/train_detectron2_detection)
+<br>
+[train_yolo](https://github.com/Ikomia-hub/train_yolo)
+<br>
+[infer_yolo_v3](https://github.com/Ikomia-hub/infer_yolo_v3)
+<br>
+[infer_yolo_v4](https://github.com/Ikomia-hub/infer_yolo_v4)
+<br>
+[infer_mobilenet_ssd](https://github.com/Ikomia-hub/infer_mobilenet_ssd)
+<br>
+[infer_face_detector](https://github.com/Ikomia-hub/infer_face_detector)
 
 ## Instance segmentation
 
@@ -95,6 +123,16 @@
 [train_detectron2_instance_segmentation](https://github.com/Ikomia-hub/train_detectron2_instance_segmentation)
 <br>
 [infer_detectron2_instance_segmentation](https://github.com/Ikomia-hub/infer_detectron2_instance_segmentation)
+<br>
+[train_detectron2_pointrend](https://github.com/Ikomia-hub/train_detectron2_pointrend)
+<br>
+[infer_detectron2_pointrend](https://github.com/Ikomia-hub/infer_detectron2_pointrend)
+<br>
+[train_detectron2_deeplabv3plus](https://github.com/Ikomia-hub/train_detectron2_deeplabv3plus)
+<br>
+[infer_detectron2_deeplabv3plus](https://github.com/Ikomia-hub/infer_detectron2_deeplabv3plus)
+<br>
+[infer_mask_rcnn](https://github.com/Ikomia-hub/infer_mask_rcnn)
 
 ## Panoptic segmentation
 
@@ -102,19 +140,41 @@
 <br>
 [infer_yolop_v2](https://github.com/Ikomia-hub/infer_yolop_v2)
 <br>
+[infer_detectron2_panoptic_segmentation](https://github.com/Ikomia-hub/infer_detectron2_panoptic_segmentation)
+<br>
 
 ## Pose estimation
 
 [infer_detectron2_densepose](https://github.com/Ikomia-hub/infer_detectron2_densepose)
 <br>
+[infer_detectron2_keypoints](https://github.com/Ikomia-hub/infer_detectron2_keypoints)
+<br>
+[infer_facemark_lbf](https://github.com/Ikomia-hub/infer_facemark_lbf)
 
 ## Text detection
 
+[train_mmlab_text_detection](https://github.com/Ikomia-hub/train_mmlab_text_detection)
+<br>
+[infer_mmlab_text_detection](https://github.com/Ikomia-hub/infer_mmlab_text_detection)
+<br>
+[infer_text_detector_east](https://github.com/Ikomia-hub/infer_text_detector_east)
+
 ## Text recognition
+
+[infer_mmlab_text_recognition](https://github.com/Ikomia-hub/infer_mmlab_text_recognition)
+<br>
+
+## Background matting
+
+[infer_background_matting](https://github.com/Ikomia-hub/infer_background_matting)
 
 ## Style transfer
 
 [infer_neural_style_transfer](https://github.com/Ikomia-hub/infer_neural_style_transfer)
+
+## Colorization
+
+[infer_colorful_image_colorization](https://github.com/Ikomia-hub/infer_colorful_image_colorization)
 
 ## Inpainting
 
@@ -126,9 +186,20 @@
 
 ## Optical flow
 
+[infer_raft_optical_flow](https://github.com/Ikomia-hub/infer_raft_optical_flow)
+
+## Action recognition
+
+[infer_resnet_action_recognition](https://github.com/Ikomia-hub/infer_resnet_action_recognition)
+
+## Emotion recognition
+
+[infer_emotion_fer_plus](https://github.com/Ikomia-hub/infer_emotion_fer_plus)
+
 ## Other
 
 [skimage_threshold](https://github.com/Ikomia-hub/skimage_threshold)
 <br>
 [skimage_morpho_snakes](https://github.com/Ikomia-hub/skimage_morpho_snakes)
 <br>
+[skimage_rolling_ball](https://github.com/Ikomia-hub/skimage_rolling_ball)
