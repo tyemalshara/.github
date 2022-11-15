@@ -108,7 +108,7 @@
 | --- | --- | --- | --- |
 | [infer_detectron2_densepose](https://github.com/Ikomia-hub/infer_detectron2_densepose) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2/tree/main/projects/DensePose)
 | [infer_detectron2_keypoints](https://github.com/Ikomia-hub/infer_detectron2_keypoints) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) |
-| [infer_facemark_lbf](https://github.com/Ikomia-hub/infer_facemark_lbf) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) | Made with OpenCV |
+| [infer_facemark_lbf](https://github.com/Ikomia-hub/infer_facemark_lbf) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) | | Made with OpenCV |
 
 ## Text detection
 
@@ -134,7 +134,7 @@
 
 | Name | Language | Description | Source code |
 | --- | --- | --- | --- |
-| [infer_neural_style_transfer](https://github.com/Ikomia-hub/infer_neural_style_transfer) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
+| [infer_neural_style_transfer](https://github.com/Ikomia-hub/infer_neural_style_transfer) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [PyImageSearch](https://pyimagesearch.com/2018/08/27/neural-style-transfer-with-opencv/) |
 
 ## Colorization
 
@@ -164,18 +164,18 @@
 
 | Name | Language | Description | Source code |
 | --- | --- | --- | --- |
-| [infer_resnet_action_recognition](https://github.com/Ikomia-hub/infer_resnet_action_recognition) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
+| [infer_resnet_action_recognition](https://github.com/Ikomia-hub/infer_resnet_action_recognition) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [kenshohara/3D-ResNets-PyTorch](https://github.com/kenshohara/3D-ResNets-PyTorch) |
 
 ## Emotion recognition
 
 | Name | Language | Description | Source code |
 | --- | --- | --- | --- |
-| [infer_emotion_fer_plus](https://github.com/Ikomia-hub/infer_emotion_fer_plus) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
+| [infer_emotion_fer_plus](https://github.com/Ikomia-hub/infer_emotion_fer_plus) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [microsoft/FERPlus](https://github.com/microsoft/FERPlus) |
 
-## Other
+## Scikit
 
 | Name | Language | Description | Source code |
 | --- | --- | --- | --- |
-| [skimage_morpho_snakes](https://github.com/Ikomia-hub/skimage_morpho_snakes) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| [skimage_rolling_ball](https://github.com/Ikomia-hub/skimage_rolling_ball) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| [skimage_threshold](https://github.com/Ikomia-hub/skimage_threshold) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
+| [skimage_morpho_snakes](https://github.com/Ikomia-hub/skimage_morpho_snakes) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) |
+| [skimage_rolling_ball](https://github.com/Ikomia-hub/skimage_rolling_ball) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) |
+| [skimage_threshold](https://github.com/Ikomia-hub/skimage_threshold) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) |
