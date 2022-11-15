@@ -34,11 +34,11 @@
 
 ## Classification
 
-| Name | Language | Description |
-| --- | --- | --- |
-| [infer_covidnet](https://github.com/Ikomia-hub/infer_covidnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | 
+| Name | Language | Description | Source code |
+| --- | --- | --- | --- |
+| [infer_covidnet](https://github.com/Ikomia-hub/infer_covidnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [lindawangg/COVID-Net](https://github.com/lindawangg/COVID-Net) |
 | [infer_inception_v3](https://github.com/Ikomia-hub/infer_inception_v3) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) |
-| [train_timm_image_classification](https://github.com/Ikomia-hub/train_timm_image_classification) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
+| [train_timm_image_classification](https://github.com/Ikomia-hub/train_timm_image_classification) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [rwightman/pytorch-image-models](https://github.com/rwightman/pytorch-image-models) |
 | [infer_timm_image_classification](https://github.com/Ikomia-hub/infer_timm_image_classification) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 | [train_torchvision_mnasnet](https://github.com/Ikomia-hub/train_torchvision_mnasnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 | [infer_torchvision_mnasnet](https://github.com/Ikomia-hub/infer_torchvision_mnasnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
