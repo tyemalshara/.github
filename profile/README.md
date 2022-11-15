@@ -98,7 +98,7 @@
 | Name | Language | Description | Source code |
 | --- | --- | --- | --- |
 | [infer_detectron2_panoptic_segmentation](https://github.com/Ikomia-hub/infer_detectron2_panoptic_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Infer Detectron2 panoptic segmentation models | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) |
-| [infer_yolop_v2](https://github.com/Ikomia-hub/infer_yolop_v2) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [CAIC-AD/YOLOPv2](https://github.com/CAIC-AD/YOLOPv2) |
+| [infer_yolop_v2](https://github.com/Ikomia-hub/infer_yolop_v2) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Infer YOLOPv2 models for Panoptic driving Perception | [CAIC-AD/YOLOPv2](https://github.com/CAIC-AD/YOLOPv2) |
 
 ## Pose estimation
 
@@ -145,7 +145,7 @@
 
 | Name | Language | Description | Source code |
 | --- | --- | --- | --- |
-| [infer_lama](https://github.com/Ikomia-hub/infer_lama) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [saic-mdal/lama](https://github.com/saic-mdal/lama) |
+| [infer_lama](https://github.com/Ikomia-hub/infer_lama) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Resolution-robust Large Mask Inpainting with Fourier Convolutions | [saic-mdal/lama](https://github.com/saic-mdal/lama) |
 
 ## Tracking
 
