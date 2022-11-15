@@ -15,11 +15,12 @@
     <a href="">
         <img alt="Python" src="https://img.shields.io/badge/os-win%2C%20linux-9cf">
     </a>
+</p>
+<p align="center">
     <a href="">
-        <img alt="Python" src="https://img.shields.io/badge/python-3.7%2C%203.8%2C%203.9-blueviolet">
+        <img alt="Ecological futuristic city in the sky" src="https://user-images.githubusercontent.com/42171814/202030473-de4f4498-2ce8-4bfe-96f9-3baa3caabf4e.jpg">
     </a>
 </p>
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
