@@ -24,20 +24,20 @@
 
 | Name | Language | Description | Source code |
 | --- | --- | --- | --- |
-| [dataset_coco](https://github.com/Ikomia-hub/dataset_coco) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Loader for datasets in COCO format | made by Ikomia |
-| [dataset_cwfid](https://github.com/Ikomia-hub/dataset_cwfid) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Loader for datasets in CWFID format | made by Ikomia |
-| [dataset_pascal_voc](https://github.com/Ikomia-hub/dataset_pascal_voc) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Loader for datasets in PASCAL VOC format | made by Ikomia |
-| [dataset_via](https://github.com/Ikomia-hub/dataset_via) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Loader for datasets in VIA format | made by Ikomia |
-| [dataset_wgisd](https://github.com/Ikomia-hub/dataset_wgisd) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Loader for datasets in WGISD format | made by Ikomia |
-| [dataset_wildreceipt](https://github.com/Ikomia-hub/dataset_wildreceipt) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | made by Ikomia |
-| [dataset_yolo](https://github.com/Ikomia-hub/dataset_yolo) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Loader for datasets in YOLO format | made by Ikomia |
+| [dataset_coco](https://github.com/Ikomia-hub/dataset_coco) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Loader for datasets in COCO format | Made by Ikomia |
+| [dataset_cwfid](https://github.com/Ikomia-hub/dataset_cwfid) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Loader for datasets in CWFID format | Made by Ikomia |
+| [dataset_pascal_voc](https://github.com/Ikomia-hub/dataset_pascal_voc) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Loader for datasets in PASCAL VOC format | Made by Ikomia |
+| [dataset_via](https://github.com/Ikomia-hub/dataset_via) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Loader for datasets in VIA format | Made by Ikomia |
+| [dataset_wgisd](https://github.com/Ikomia-hub/dataset_wgisd) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Loader for datasets in WGISD format | Made by Ikomia |
+| [dataset_wildreceipt](https://github.com/Ikomia-hub/dataset_wildreceipt) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | Made by Ikomia |
+| [dataset_yolo](https://github.com/Ikomia-hub/dataset_yolo) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Loader for datasets in YOLO format | Made by Ikomia |
 
 ## Classification
 
 | Name | Language | Description | Source code |
 | --- | --- | --- | --- |
 | [infer_covidnet](https://github.com/Ikomia-hub/infer_covidnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [lindawangg/COVID-Net](https://github.com/lindawangg/COVID-Net) |
-| [infer_inception_v3](https://github.com/Ikomia-hub/infer_inception_v3) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) |
+| [infer_inception_v3](https://github.com/Ikomia-hub/infer_inception_v3) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) | | Made with OpenCV |
 | [train_timm_image_classification](https://github.com/Ikomia-hub/train_timm_image_classification) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [rwightman/pytorch-image-models](https://github.com/rwightman/pytorch-image-models) |
 | [infer_timm_image_classification](https://github.com/Ikomia-hub/infer_timm_image_classification) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [rwightman/pytorch-image-models](https://github.com/rwightman/pytorch-image-models) |
 | [train_torchvision_mnasnet](https://github.com/Ikomia-hub/train_torchvision_mnasnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [pytorch/vision](https://github.com/pytorch/vision) |
@@ -51,7 +51,7 @@
 
 | Name | Language | Description | Source code |
 | --- | --- | --- | --- |
-| [infer_face_detection_kornia](https://github.com/Ikomia-hub/infer_face_detection_kornia) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
+| [infer_face_detection_kornia](https://github.com/Ikomia-hub/infer_face_detection_kornia) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [kornia/kornia](https://github.com/kornia/kornia) |
 | [infer_face_detector](https://github.com/Ikomia-hub/infer_face_detector) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) | | Made with OpenCV |
 | [infer_detectron2_detection](https://github.com/Ikomia-hub/infer_detectron2_detection) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) |
 | [infer_detectron2_retinanet](https://github.com/Ikomia-hub/infer_detectron2_retinanet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) |
@@ -99,16 +99,16 @@
 
 | Name | Language | Description | Source code |
 | --- | --- | --- | --- |
-| [infer_detectron2_panoptic_segmentation](https://github.com/Ikomia-hub/infer_detectron2_panoptic_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| [infer_yolop_v2](https://github.com/Ikomia-hub/infer_yolop_v2) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
+| [infer_detectron2_panoptic_segmentation](https://github.com/Ikomia-hub/infer_detectron2_panoptic_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) |
+| [infer_yolop_v2](https://github.com/Ikomia-hub/infer_yolop_v2) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [CAIC-AD/YOLOPv2](https://github.com/CAIC-AD/YOLOPv2) |
 
 ## Pose estimation
 
 | Name | Language | Description | Source code |
 | --- | --- | --- | --- |
-| [infer_detectron2_densepose](https://github.com/Ikomia-hub/infer_detectron2_densepose) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| [infer_detectron2_keypoints](https://github.com/Ikomia-hub/infer_detectron2_keypoints) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| [infer_facemark_lbf](https://github.com/Ikomia-hub/infer_facemark_lbf) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) |
+| [infer_detectron2_densepose](https://github.com/Ikomia-hub/infer_detectron2_densepose) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2/tree/main/projects/DensePose)
+| [infer_detectron2_keypoints](https://github.com/Ikomia-hub/infer_detectron2_keypoints) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) |
+| [infer_facemark_lbf](https://github.com/Ikomia-hub/infer_facemark_lbf) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) | Made with OpenCV |
 
 ## Text detection
 
