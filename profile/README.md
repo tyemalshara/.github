@@ -41,7 +41,7 @@
     <li><a href="#tracking">Tracking</a></li>
     <li><a href="#optical-flow">Optical flow</a></li>
     <li><a href="#action-recognition">Action recognition</a></li>
-    <li><a href="#emotion-recognition">Emotion recognition/a></li>
+    <li><a href="#emotion-recognition">Emotion recognition</a></li>
     <li><a href="#scikit">Scikit</a></li>
   </ol>
 </details>
