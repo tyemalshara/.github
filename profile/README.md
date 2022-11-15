@@ -114,21 +114,21 @@
 
 | Name | Language | Description | Source code |
 | --- | --- | --- | --- |
-| [train_mmlab_text_detection](https://github.com/Ikomia-hub/train_mmlab_text_detection) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| [infer_mmlab_text_detection](https://github.com/Ikomia-hub/infer_mmlab_text_detection) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| [infer_text_detector_east](https://github.com/Ikomia-hub/infer_text_detector_east) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) |
+| [train_mmlab_text_detection](https://github.com/Ikomia-hub/train_mmlab_text_detection) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [open-mmlab/mmocr](https://github.com/open-mmlab/mmocr) |
+| [infer_mmlab_text_detection](https://github.com/Ikomia-hub/infer_mmlab_text_detection) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [open-mmlab/mmocr](https://github.com/open-mmlab/mmocr) |
+| [infer_text_detector_east](https://github.com/Ikomia-hub/infer_text_detector_east) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) | | Made with OpenCV |
 
 ## Text recognition
 
 | Name | Language | Description | Source code |
 | --- | --- | --- | --- |
-| [infer_mmlab_text_recognition](https://github.com/Ikomia-hub/infer_mmlab_text_recognition) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
+| [infer_mmlab_text_recognition](https://github.com/Ikomia-hub/infer_mmlab_text_recognition) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [open-mmlab/mmocr](https://github.com/open-mmlab/mmocr) |
 
 ## Background matting
 
 | Name | Language | Description | Source code |
 | --- | --- | --- | --- |
-| [infer_background_matting](https://github.com/Ikomia-hub/infer_background_matting) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
+| [infer_background_matting](https://github.com/Ikomia-hub/infer_background_matting) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [PeterL1n/BackgroundMattingV2](https://github.com/PeterL1n/BackgroundMattingV2) |
 
 ## Style transfer
 
