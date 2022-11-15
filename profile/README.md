@@ -71,8 +71,8 @@
 
 ## Instance segmentation
 
-| Name | Language | Description |
-| --- | --- | --- |
+| Name | Language | Description | Source code |
+| --- | --- | --- | --- |
 | [train_detectron2_deeplabv3plus](https://github.com/Ikomia-hub/train_detectron2_deeplabv3plus) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 | [infer_detectron2_deeplabv3plus](https://github.com/Ikomia-hub/infer_detectron2_deeplabv3plus) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 | [infer_detectron2_instance_segmentation](https://github.com/Ikomia-hub/infer_detectron2_instance_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
@@ -90,85 +90,85 @@
 
 ## Panoptic segmentation
 
-| Name | Language | Description |
-| --- | --- | --- |
+| Name | Language | Description | Source code |
+| --- | --- | --- | --- |
 | [infer_detectron2_panoptic_segmentation](https://github.com/Ikomia-hub/infer_detectron2_panoptic_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 | [infer_yolop_v2](https://github.com/Ikomia-hub/infer_yolop_v2) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 
 ## Pose estimation
 
-| Name | Language | Description |
-| --- | --- | --- |
+| Name | Language | Description | Source code |
+| --- | --- | --- | --- |
 | [infer_detectron2_densepose](https://github.com/Ikomia-hub/infer_detectron2_densepose) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 | [infer_detectron2_keypoints](https://github.com/Ikomia-hub/infer_detectron2_keypoints) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 | [infer_facemark_lbf](https://github.com/Ikomia-hub/infer_facemark_lbf) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) |
 
 ## Text detection
 
-| Name | Language | Description |
-| --- | --- | --- |
+| Name | Language | Description | Source code |
+| --- | --- | --- | --- |
 | [train_mmlab_text_detection](https://github.com/Ikomia-hub/train_mmlab_text_detection) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 | [infer_mmlab_text_detection](https://github.com/Ikomia-hub/infer_mmlab_text_detection) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 | [infer_text_detector_east](https://github.com/Ikomia-hub/infer_text_detector_east) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) |
 
 ## Text recognition
 
-| Name | Language | Description |
-| --- | --- | --- |
+| Name | Language | Description | Source code |
+| --- | --- | --- | --- |
 | [infer_mmlab_text_recognition](https://github.com/Ikomia-hub/infer_mmlab_text_recognition) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 
 ## Background matting
 
-| Name | Language | Description |
-| --- | --- | --- |
+| Name | Language | Description | Source code |
+| --- | --- | --- | --- |
 | [infer_background_matting](https://github.com/Ikomia-hub/infer_background_matting) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 
 ## Style transfer
 
-| Name | Language | Description |
-| --- | --- | --- |
+| Name | Language | Description | Source code |
+| --- | --- | --- | --- |
 | [infer_neural_style_transfer](https://github.com/Ikomia-hub/infer_neural_style_transfer) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 
 ## Colorization
 
-| Name | Language | Description |
-| --- | --- | --- |
+| Name | Language | Description | Source code |
+| --- | --- | --- | --- |
 | [infer_colorful_image_colorization](https://github.com/Ikomia-hub/infer_colorful_image_colorization) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 
 ## Inpainting
 
-| Name | Language | Description |
-| --- | --- | --- |
+| Name | Language | Description | Source code |
+| --- | --- | --- | --- |
 | [infer_lama](https://github.com/Ikomia-hub/infer_lama) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 
 ## Tracking
 
-| Name | Language | Description |
-| --- | --- | --- |
+| Name | Language | Description | Source code |
+| --- | --- | --- | --- |
 | [infer_deepsort](https://github.com/Ikomia-hub/infer_deepsort) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 
 ## Optical flow
 
-| Name | Language | Description |
-| --- | --- | --- |
+| Name | Language | Description | Source code |
+| --- | --- | --- | --- |
 | [infer_raft_optical_flow](https://github.com/Ikomia-hub/infer_raft_optical_flow) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 
 ## Action recognition
 
-| Name | Language | Description |
-| --- | --- | --- |
+| Name | Language | Description | Source code |
+| --- | --- | --- | --- |
 | [infer_resnet_action_recognition](https://github.com/Ikomia-hub/infer_resnet_action_recognition) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 
 ## Emotion recognition
 
-| Name | Language | Description |
-| --- | --- | --- |
+| Name | Language | Description | Source code |
+| --- | --- | --- | --- |
 | [infer_emotion_fer_plus](https://github.com/Ikomia-hub/infer_emotion_fer_plus) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 
 ## Other
 
-| Name | Language | Description |
-| --- | --- | --- |
+| Name | Language | Description | Source code |
+| --- | --- | --- | --- |
 | [skimage_morpho_snakes](https://github.com/Ikomia-hub/skimage_morpho_snakes) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 | [skimage_rolling_ball](https://github.com/Ikomia-hub/skimage_rolling_ball) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 | [skimage_threshold](https://github.com/Ikomia-hub/skimage_threshold) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
