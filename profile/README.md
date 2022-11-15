@@ -39,23 +39,23 @@
 | [infer_covidnet](https://github.com/Ikomia-hub/infer_covidnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [lindawangg/COVID-Net](https://github.com/lindawangg/COVID-Net) |
 | [infer_inception_v3](https://github.com/Ikomia-hub/infer_inception_v3) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) |
 | [train_timm_image_classification](https://github.com/Ikomia-hub/train_timm_image_classification) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [rwightman/pytorch-image-models](https://github.com/rwightman/pytorch-image-models) |
-| [infer_timm_image_classification](https://github.com/Ikomia-hub/infer_timm_image_classification) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| [train_torchvision_mnasnet](https://github.com/Ikomia-hub/train_torchvision_mnasnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| [infer_torchvision_mnasnet](https://github.com/Ikomia-hub/infer_torchvision_mnasnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| [train_torchvision_resnet](https://github.com/Ikomia-hub/train_torchvision_resnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| [infer_torchvision_resnet](https://github.com/Ikomia-hub/infer_torchvision_resnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| [train_torchvision_resnext](https://github.com/Ikomia-hub/train_torchvision_resnext) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| [infer_torchvision_resnext](https://github.com/Ikomia-hub/infer_torchvision_resnext) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
+| [infer_timm_image_classification](https://github.com/Ikomia-hub/infer_timm_image_classification) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [rwightman/pytorch-image-models](https://github.com/rwightman/pytorch-image-models) |
+| [train_torchvision_mnasnet](https://github.com/Ikomia-hub/train_torchvision_mnasnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [pytorch/vision](https://github.com/pytorch/vision) |
+| [infer_torchvision_mnasnet](https://github.com/Ikomia-hub/infer_torchvision_mnasnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [pytorch/vision](https://github.com/pytorch/vision) |
+| [train_torchvision_resnet](https://github.com/Ikomia-hub/train_torchvision_resnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [pytorch/vision](https://github.com/pytorch/vision) |
+| [infer_torchvision_resnet](https://github.com/Ikomia-hub/infer_torchvision_resnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [pytorch/vision](https://github.com/pytorch/vision) |
+| [train_torchvision_resnext](https://github.com/Ikomia-hub/train_torchvision_resnext) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [pytorch/vision](https://github.com/pytorch/vision) |
+| [infer_torchvision_resnext](https://github.com/Ikomia-hub/infer_torchvision_resnext) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [pytorch/vision](https://github.com/pytorch/vision) |
 
 ## Object detection
 
-| Name | Language | Description |
-| --- | --- | --- |
+| Name | Language | Description | Source code |
+| --- | --- | --- | --- |
 | [infer_face_detection_kornia](https://github.com/Ikomia-hub/infer_face_detection_kornia) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 | [infer_face_detector](https://github.com/Ikomia-hub/infer_face_detector) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) |
-| [infer_detectron2_detection](https://github.com/Ikomia-hub/infer_detectron2_detection) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| [infer_detectron2_retinanet](https://github.com/Ikomia-hub/infer_detectron2_retinanet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| [infer_detectron2_tridentnet](https://github.com/Ikomia-hub/infer_detectron2_tridentnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
+| [infer_detectron2_detection](https://github.com/Ikomia-hub/infer_detectron2_detection) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) |
+| [infer_detectron2_retinanet](https://github.com/Ikomia-hub/infer_detectron2_retinanet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) |
+| [infer_detectron2_tridentnet](https://github.com/Ikomia-hub/infer_detectron2_tridentnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2/tree/main/projects/TridentNet) |
 | [train_mmlab_detection](https://github.com/Ikomia-hub/train_mmlab_detection) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 | [infer_mmlab_detection](https://github.com/Ikomia-hub/infer_mmlab_detection) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 | [infer_mobilenet_ssd](https://github.com/Ikomia-hub/infer_mobilenet_ssd) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) |
