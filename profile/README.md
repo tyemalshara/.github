@@ -37,7 +37,7 @@
 | Name | Language | Description | Source code |
 | --- | --- | --- | --- |
 | [infer_covidnet](https://github.com/Ikomia-hub/infer_covidnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [lindawangg/COVID-Net](https://github.com/lindawangg/COVID-Net) |
-| [infer_inception_v3](https://github.com/Ikomia-hub/infer_inception_v3) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) | Classification deep neural network trained on ImageNet dataset. Developped by Google | Made with OpenCV |
+| [infer_inception_v3](https://github.com/Ikomia-hub/infer_inception_v3) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) | Deep neural network classifier trained on ImageNet dataset | Made with OpenCV |
 | [train_timm_image_classification](https://github.com/Ikomia-hub/train_timm_image_classification) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Train timm image classification models | [rwightman/pytorch-image-models](https://github.com/rwightman/pytorch-image-models) |
 | [infer_timm_image_classification](https://github.com/Ikomia-hub/infer_timm_image_classification) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Infer timm image classification models | [rwightman/pytorch-image-models](https://github.com/rwightman/pytorch-image-models) |
 | [train_torchvision_mnasnet](https://github.com/Ikomia-hub/train_torchvision_mnasnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Training process for MnasNet convolutional network | [pytorch/vision](https://github.com/pytorch/vision) |
@@ -129,7 +129,7 @@
 
 | Name | Language | Description | Source code |
 | --- | --- | --- | --- |
-| [infer_background_matting](https://github.com/Ikomia-hub/infer_background_matting) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [PeterL1n/BackgroundMattingV2](https://github.com/PeterL1n/BackgroundMattingV2) |
+| [infer_background_matting](https://github.com/Ikomia-hub/infer_background_matting) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Real-Time High-Resolution Background Matting | [PeterL1n/BackgroundMattingV2](https://github.com/PeterL1n/BackgroundMattingV2) |
 
 ## Style transfer
 
@@ -153,7 +153,7 @@
 
 | Name | Language | Description | Source code |
 | --- | --- | --- | --- |
-| [infer_deepsort](https://github.com/Ikomia-hub/infer_deepsort) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [ZQPei/deep_sort_pytorch](https://github.com/ZQPei/deep_sort_pytorch) |
+| [infer_deepsort](https://github.com/Ikomia-hub/infer_deepsort) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Simple Online and Realtime Tracking with a deep association metric | [nwojke/deep_sort](https://github.com/nwojke/deep_sort) |
 
 ## Optical flow
 
