@@ -3,7 +3,7 @@
 
 <!-- PROJECT LOGO -->
 <div align="center">
-  <h3 align="center">The best state-of-the-art Computer Vision algorithms as ready-to-use apps</h3>
+  <h1 align="center">State-of-the-art Computer Vision as ready-to-use algorithms</h1>
 </div>
 <p align="center">
     <a href="https://github.com/Ikomia-hub">
