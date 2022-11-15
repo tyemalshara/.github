@@ -73,20 +73,27 @@
 
 | Name | Language | Description | Source code |
 | --- | --- | --- | --- |
-| [train_detectron2_deeplabv3plus](https://github.com/Ikomia-hub/train_detectron2_deeplabv3plus) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| [infer_detectron2_deeplabv3plus](https://github.com/Ikomia-hub/infer_detectron2_deeplabv3plus) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| [infer_detectron2_instance_segmentation](https://github.com/Ikomia-hub/infer_detectron2_instance_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| [infer_detectron2_pointrend](https://github.com/Ikomia-hub/infer_detectron2_pointrend) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| [infer_mask_rcnn](https://github.com/Ikomia-hub/infer_mask_rcnn) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) |
-| [train_torchvision_faster_rcnn](https://github.com/Ikomia-hub/train_torchvision_faster_rcnn) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| [infer_torchvision_faster_rcnn](https://github.com/Ikomia-hub/infer_torchvision_faster_rcnn) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| [train_torchvision_mask_rcnn](https://github.com/Ikomia-hub/train_torchvision_mask_rcnn) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| [infer_torchvision_mask_rcnn](https://github.com/Ikomia-hub/infer_torchvision_mask_rcnn) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| [train_transunet](https://github.com/Ikomia-hub/train_transunet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| [infer_transunet](https://github.com/Ikomia-hub/infer_transunet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| [infer_yolact](https://github.com/Ikomia-hub/infer_yolact) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| [train_yolo_v7_instance_segmentation](https://github.com/Ikomia-hub/train_yolo_v7_instance_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| [infer_yolo_v7_instance_segmentation](https://github.com/Ikomia-hub/infer_yolo_v7_instance_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
+| [train_detectron2_deeplabv3plus](https://github.com/Ikomia-hub/train_detectron2_deeplabv3plus) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2/tree/main/projects/DeepLab) |
+| [infer_detectron2_deeplabv3plus](https://github.com/Ikomia-hub/infer_detectron2_deeplabv3plus) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2/tree/main/projects/DeepLab) |
+| [infer_detectron2_instance_segmentation](https://github.com/Ikomia-hub/infer_detectron2_instance_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) |
+| [infer_detectron2_pointrend](https://github.com/Ikomia-hub/infer_detectron2_pointrend) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2/tree/main/projects/PointRend) |
+| [infer_mask_rcnn](https://github.com/Ikomia-hub/infer_mask_rcnn) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) | | Made with OpenCV |
+| [train_torchvision_faster_rcnn](https://github.com/Ikomia-hub/train_torchvision_faster_rcnn) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [pytorch/vision](https://github.com/pytorch/vision) |
+| [infer_torchvision_faster_rcnn](https://github.com/Ikomia-hub/infer_torchvision_faster_rcnn) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [pytorch/vision](https://github.com/pytorch/vision) |
+| [train_torchvision_mask_rcnn](https://github.com/Ikomia-hub/train_torchvision_mask_rcnn) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [pytorch/vision](https://github.com/pytorch/vision) |
+| [infer_torchvision_mask_rcnn](https://github.com/Ikomia-hub/infer_torchvision_mask_rcnn) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [pytorch/vision](https://github.com/pytorch/vision) |
+| [infer_yolact](https://github.com/Ikomia-hub/infer_yolact) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [dbolya/yolact](https://github.com/dbolya/yolact) |
+| [train_yolo_v7_instance_segmentation](https://github.com/Ikomia-hub/train_yolo_v7_instance_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [WongKinYiu/yolov7](https://github.com/WongKinYiu/yolov7/tree/u7/seg) |
+| [infer_yolo_v7_instance_segmentation](https://github.com/Ikomia-hub/infer_yolo_v7_instance_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [WongKinYiu/yolov7](https://github.com/WongKinYiu/yolov7/tree/u7/seg) |
+
+## Semantic segmentation
+
+| Name | Language | Description | Source code |
+| --- | --- | --- | --- |
+| [train_detectron2_deeplabv3plus](https://github.com/Ikomia-hub/train_detectron2_deeplabv3plus) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2/tree/main/projects/DeepLab) |
+| [infer_detectron2_deeplabv3plus](https://github.com/Ikomia-hub/infer_detectron2_deeplabv3plus) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2/tree/main/projects/DeepLab) |
+| [train_transunet](https://github.com/Ikomia-hub/train_transunet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [Beckschen/TransUNet](https://github.com/Beckschen/TransUNet) |
+| [infer_transunet](https://github.com/Ikomia-hub/infer_transunet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [Beckschen/TransUNet](https://github.com/Beckschen/TransUNet) |
 
 ## Panoptic segmentation
 
