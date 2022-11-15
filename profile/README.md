@@ -51,7 +51,7 @@
 
 | Name | Language | Description | Source code |
 | --- | --- | --- | --- |
-| [infer_face_detection_kornia](https://github.com/Ikomia-hub/infer_face_detection_kornia) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [kornia/kornia](https://github.com/kornia/kornia) |
+| [infer_face_detection_kornia](https://github.com/Ikomia-hub/infer_face_detection_kornia) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Face detection using kornia | [kornia/kornia](https://github.com/kornia/kornia) |
 | [infer_face_detector](https://github.com/Ikomia-hub/infer_face_detector) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) | Deep learning based face detector | Made with OpenCV |
 | [infer_detectron2_detection](https://github.com/Ikomia-hub/infer_detectron2_detection) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference for Detectron2 detection models | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) |
 | [infer_detectron2_retinanet](https://github.com/Ikomia-hub/infer_detectron2_retinanet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | RetinaNet inference model of Detectron2 for object detection | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) |
@@ -81,8 +81,8 @@
 | [train_torchvision_mask_rcnn](https://github.com/Ikomia-hub/train_torchvision_mask_rcnn) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Training process for Mask R-CNN convolutional network | [pytorch/vision](https://github.com/pytorch/vision) |
 | [infer_torchvision_mask_rcnn](https://github.com/Ikomia-hub/infer_torchvision_mask_rcnn) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Mask R-CNN inference model for object detection and segmentation | [pytorch/vision](https://github.com/pytorch/vision) |
 | [infer_yolact](https://github.com/Ikomia-hub/infer_yolact) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | A simple, fully convolutional model for real-time instance segmentation | [dbolya/yolact](https://github.com/dbolya/yolact) |
-| [train_yolo_v7_instance_segmentation](https://github.com/Ikomia-hub/train_yolo_v7_instance_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [WongKinYiu/yolov7](https://github.com/WongKinYiu/yolov7/tree/u7/seg) |
-| [infer_yolo_v7_instance_segmentation](https://github.com/Ikomia-hub/infer_yolo_v7_instance_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [WongKinYiu/yolov7](https://github.com/WongKinYiu/yolov7/tree/u7/seg) |
+| [train_yolo_v7_instance_segmentation](https://github.com/Ikomia-hub/train_yolo_v7_instance_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Train YOLOv7 instance segmentation models | [WongKinYiu/yolov7](https://github.com/WongKinYiu/yolov7/tree/u7/seg) |
+| [infer_yolo_v7_instance_segmentation](https://github.com/Ikomia-hub/infer_yolo_v7_instance_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | YOLOv7 instance segmentation inference | [WongKinYiu/yolov7](https://github.com/WongKinYiu/yolov7/tree/u7/seg) |
 
 ## Semantic segmentation
 
