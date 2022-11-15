@@ -140,25 +140,25 @@
 
 | Name | Language | Description | Source code |
 | --- | --- | --- | --- |
-| [infer_colorful_image_colorization](https://github.com/Ikomia-hub/infer_colorful_image_colorization) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
+| [infer_colorful_image_colorization](https://github.com/Ikomia-hub/infer_colorful_image_colorization) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [richzhang/colorization](https://github.com/richzhang/colorization) |
 
 ## Inpainting
 
 | Name | Language | Description | Source code |
 | --- | --- | --- | --- |
-| [infer_lama](https://github.com/Ikomia-hub/infer_lama) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
+| [infer_lama](https://github.com/Ikomia-hub/infer_lama) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [saic-mdal/lama](https://github.com/saic-mdal/lama) |
 
 ## Tracking
 
 | Name | Language | Description | Source code |
 | --- | --- | --- | --- |
-| [infer_deepsort](https://github.com/Ikomia-hub/infer_deepsort) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
+| [infer_deepsort](https://github.com/Ikomia-hub/infer_deepsort) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [ZQPei/deep_sort_pytorch](https://github.com/ZQPei/deep_sort_pytorch) |
 
 ## Optical flow
 
 | Name | Language | Description | Source code |
 | --- | --- | --- | --- |
-| [infer_raft_optical_flow](https://github.com/Ikomia-hub/infer_raft_optical_flow) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
+| [infer_raft_optical_flow](https://github.com/Ikomia-hub/infer_raft_optical_flow) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | | [princeton-vl/RAFT](https://github.com/princeton-vl/RAFT) |
 
 ## Action recognition
 
