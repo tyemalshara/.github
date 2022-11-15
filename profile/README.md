@@ -75,9 +75,7 @@
 | --- | --- | --- |
 | [train_detectron2_deeplabv3plus](https://github.com/Ikomia-hub/train_detectron2_deeplabv3plus) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 | [infer_detectron2_deeplabv3plus](https://github.com/Ikomia-hub/infer_detectron2_deeplabv3plus) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| [train_detectron2_instance_segmentation](https://github.com/Ikomia-hub/train_detectron2_instance_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 | [infer_detectron2_instance_segmentation](https://github.com/Ikomia-hub/infer_detectron2_instance_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| [train_detectron2_pointrend](https://github.com/Ikomia-hub/train_detectron2_pointrend) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 | [infer_detectron2_pointrend](https://github.com/Ikomia-hub/infer_detectron2_pointrend) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 | [infer_mask_rcnn](https://github.com/Ikomia-hub/infer_mask_rcnn) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) |
 | [train_torchvision_faster_rcnn](https://github.com/Ikomia-hub/train_torchvision_faster_rcnn) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
@@ -95,7 +93,6 @@
 | Name | Language | Description |
 | --- | --- | --- |
 | [infer_detectron2_panoptic_segmentation](https://github.com/Ikomia-hub/infer_detectron2_panoptic_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| [train_yolop_v2](https://github.com/Ikomia-hub/train_yolop_v2) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 | [infer_yolop_v2](https://github.com/Ikomia-hub/infer_yolop_v2) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 
 ## Pose estimation
