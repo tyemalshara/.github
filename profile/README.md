@@ -34,6 +34,14 @@
     </a>
 </p>
 
+# Introduction
+
+At Ikomia, we deeply believe that sharing scientific knowledge is the key to success, that's why we try to make research-based algorithms ready-to-use for developers. 
+
+The main mindset of Ikomia is to take existing Python code and wrap it as ready-to-use algorithm for [Ikomia API](https://github.com/Ikomia-dev/IkomiaApi) (our Python library) and [Ikomia STUDIO](https://github.com/Ikomia-dev/IkomiaStudio) (our desktop software). With this approach, we can easily integrate individual repos from researchers or labs and also awesome frameworks like [OpenCV](https://github.com/opencv/opencv), [Detectron2](https://github.com/facebookresearch/detectron2), [OpenMMLab](https://github.com/open-mmlab) or [Hugging Face](https://github.com/huggingface/transformers) so that developers can benefit from the best state-of-the-art algorithms in one and only one framework.
+
+
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
