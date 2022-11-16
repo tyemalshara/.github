@@ -12,12 +12,12 @@
     <a href="https://ikomia.com/en/computer-vision-api/">
         <img alt="Website" src="https://img.shields.io/website/http/ikomia.com/en.svg?down_color=red&down_message=offline&up_message=online">
     </a>
-    <a href="">
+    <a href="https://github.com/Ikomia-hub">
         <img alt="Python" src="https://img.shields.io/badge/os-win%2C%20linux-9cf">
     </a>
 </p>
 <p align="center">
-    <a href="">
+    <a href="https://github.com/Ikomia-hub">
         <img alt="Ecological futuristic city in the sky" src="https://user-images.githubusercontent.com/42171814/202030473-de4f4498-2ce8-4bfe-96f9-3baa3caabf4e.jpg">
     </a>
 </p>
