@@ -148,6 +148,7 @@ The main goal of Ikomia is to take existing Python code and wrap it as ready-to-
 | [infer_detectron2_deeplabv3plus](https://github.com/Ikomia-hub/infer_detectron2_deeplabv3plus) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | DeepLabv3+ inference model of Detectron2 for semantic segmentation | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2/tree/main/projects/DeepLab) |
 | [train_transunet](https://github.com/Ikomia-hub/train_transunet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Training process for TransUNet model | [Beckschen/TransUNet](https://github.com/Beckschen/TransUNet) |
 | [infer_transunet](https://github.com/Ikomia-hub/infer_transunet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | TransUNet inference for semantic segmentation | [Beckschen/TransUNet](https://github.com/Beckschen/TransUNet) |
+| [infer_hugginface_semantic_segmentation](https://github.com/Ikomia-hub/infer_huggingface_semantic_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Infer semantic segmentation models from HuggingFace | [Hugging Face](https://huggingface.co/docs/transformers/tasks/semantic_segmentation) |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
