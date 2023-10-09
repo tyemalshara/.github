@@ -1,4 +1,3 @@
-
 <a name="readme-top"></a>
 
 <!-- PROJECT LOGO -->
@@ -41,225 +40,189 @@ At Ikomia, we deeply believe that sharing scientific knowledge is the key to suc
 The main goal of Ikomia is to take existing Python code and wrap it as ready-to-use algorithm for [Ikomia API](https://github.com/Ikomia-dev/IkomiaApi) (our Python library) and [Ikomia STUDIO](https://github.com/Ikomia-dev/IkomiaStudio) (our desktop software). With this approach, we can easily integrate individual repos from researchers or labs and also awesome frameworks like [OpenCV](https://github.com/opencv/opencv), [Detectron2](https://github.com/facebookresearch/detectron2), [OpenMMLab](https://github.com/open-mmlab) or [Hugging Face](https://github.com/huggingface/transformers) so that developers can benefit from the best state-of-the-art algorithms in a single framework.
 
 
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#dataset-loader">Dataset loader</a></li>
-    <li><a href="#classification">Classification</a></li>
-    <li><a href="#object-detection">Object detection</a></li>
-    <li><a href="#instance-segmentation">Instance segmentation</a></li>
-    <li><a href="#semantic-segmentation">Semantic segmentation</a></li>
-    <li><a href="#panoptic-segmentation">Panoptic segmentation</a></li>
-    <li><a href="#pose-estimation">Pose estimation</a></li>
-    <li><a href="#text-detection">Text detection</a></li>
-    <li><a href="#text-recognition">Text recognition</a></li>
-    <li><a href="#background-matting">Background matting</a></li>
-    <li><a href="#style-transfer">Style transfer</a></li>
-    <li><a href="#colorization">Colorization</a></li>
-    <li><a href="#inpainting">Inpainting</a></li>
-    <li><a href="#tracking">Tracking</a></li>
-    <li><a href="#optical-flow">Optical flow</a></li>
-    <li><a href="#action-recognition">Action recognition</a></li>
-    <li><a href="#emotion-recognition">Emotion recognition</a></li>
-    <li><a href="#scikit">Scikit</a></li>
+    <li><a href="#DATASET_LOADER<">Dataset loader</a></li><li><a href="#CLASSIFICATION">Classification</a></li>
+<li><a href="#COLORIZATION">Colorization</a></li>
+<li><a href="#IMAGE_CAPTIONING">Image captioning</a></li>
+<li><a href="#IMAGE_GENERATION">Image generation</a></li>
+<li><a href="#IMAGE_MATTING">Image matting</a></li>
+<li><a href="#INPAINTING">Inpainting</a></li>
+<li><a href="#INSTANCE_SEGMENTATION">Instance segmentation</a></li>
+<li><a href="#KEYPOINTS_DETECTION">Keypoints detection</a></li>
+<li><a href="#OBJECT_DETECTION">Object Detection</a></li>
+<li><a href="#OBJECT_TRACKING">Object tracking</a></li>
+<li><a href="#OCR">OCR</a></li>
+<li><a href="#OPTICAL_FLOW">Optical flow</a></li>
+<li><a href="#OTHER">Other</a></li>
+<li><a href="#PANOPTIC_SEGMENTATION">Panoptic segmentation</a></li>
+<li><a href="#SEMANTIC_SEGMENTATION">Semantic segmentation</a></li>
+<li><a href="#SUPER_RESOLUTION">Super resolution</a></li>
   </ol>
 </details>
 
-
 ## Dataset loader
-
-| Name | Language | Description | Source code |
+| Name | Language | Description | Original repository |
 | --- | --- | --- | --- |
-| [dataset_coco](https://github.com/Ikomia-hub/dataset_coco) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Load COCO 2017 dataset  | Made by Ikomia |
-| [dataset_cwfid](https://github.com/Ikomia-hub/dataset_cwfid) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Load Crop/Weed Field Image Dataset (CWFID) for semantic segmentation  | Made by Ikomia |
-| [dataset_pascal_voc](https://github.com/Ikomia-hub/dataset_pascal_voc) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Load PascalVOC dataset  | Made by Ikomia |
-| [dataset_via](https://github.com/Ikomia-hub/dataset_via) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Load VGG Image Annotator dataset  | Made by Ikomia |
-| [dataset_wgisd](https://github.com/Ikomia-hub/dataset_wgisd) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Load Wine Grape Instance Segmentation Dataset (WGISD) | Made by Ikomia |
-| [dataset_wildreceipt](https://github.com/Ikomia-hub/dataset_wildreceipt) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Load the WildReceipt dataset (OCR) | Made by Ikomia |
-| [dataset_yolo](https://github.com/Ikomia-hub/dataset_yolo) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Loader for datasets in YOLO format | Made by Ikomia |
+| [dataset_classification](https://github.com/Ikomia-hub/dataset_classification) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Load classification dataset | Made by Ikomia |
+| [dataset_coco](https://github.com/Ikomia-hub/dataset_coco) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Load COCO 2017 dataset | Made by Ikomia |
+| [dataset_cwfid](https://github.com/Ikomia-hub/dataset_cwfid) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Load Crop/Weed Field Image Dataset (CWFID) for semantic segmentation | [Link](https://github.com/cwfid/dataset) |
+| [dataset_pascal_voc](https://github.com/Ikomia-hub/dataset_pascal_voc) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Load PascalVOC dataset | Made by Ikomia |
+| [dataset_via](https://github.com/Ikomia-hub/dataset_via) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Load VGG Image Annotator dataset | Made by Ikomia |
+| [dataset_wgisd](https://github.com/Ikomia-hub/dataset_wgisd) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Load Wine Grape Instance Segmentation Dataset (WGISD) | [Link](https://github.com/thsant/wgisd) |
+| [dataset_wildreceipt](https://github.com/Ikomia-hub/dataset_wildreceipt) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Load Wildreceipt dataset | Made by Ikomia |
+| [dataset_yolo](https://github.com/Ikomia-hub/dataset_yolo) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Load YOLO dataset | Made by Ikomia |
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Classification
-
-| Name | Language | Description | Source code |
+| Name | Language | Description | Original repository |
 | --- | --- | --- | --- |
-| [infer_covidnet](https://github.com/Ikomia-hub/infer_covidnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | A tailored Deep Convolutional Neural Network Design for detection of COVID-19 cases from chest radiography images | [lindawangg/COVID-Net](https://github.com/lindawangg/COVID-Net) |
-| [infer_inception_v3](https://github.com/Ikomia-hub/infer_inception_v3) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) | Deep neural network classifier trained on ImageNet dataset | Made with OpenCV |
-| [train_timm_image_classification](https://github.com/Ikomia-hub/train_timm_image_classification) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Train timm image classification models | [rwightman/pytorch-image-models](https://github.com/rwightman/pytorch-image-models) |
-| [infer_timm_image_classification](https://github.com/Ikomia-hub/infer_timm_image_classification) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Infer timm image classification models | [rwightman/pytorch-image-models](https://github.com/rwightman/pytorch-image-models) |
-| [train_torchvision_mnasnet](https://github.com/Ikomia-hub/train_torchvision_mnasnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Training process for MnasNet convolutional network | [pytorch/vision](https://github.com/pytorch/vision) |
-| [infer_torchvision_mnasnet](https://github.com/Ikomia-hub/infer_torchvision_mnasnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | MnasNet inference model for image classification | [pytorch/vision](https://github.com/pytorch/vision) |
-| [train_torchvision_resnet](https://github.com/Ikomia-hub/train_torchvision_resnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Training process for ResNet convolutional network | [pytorch/vision](https://github.com/pytorch/vision) |
-| [infer_torchvision_resnet](https://github.com/Ikomia-hub/infer_torchvision_resnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | ResNet inference model for image classification | [pytorch/vision](https://github.com/pytorch/vision) |
-| [train_torchvision_resnext](https://github.com/Ikomia-hub/train_torchvision_resnext) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Training process for ResNeXt convolutional network | [pytorch/vision](https://github.com/pytorch/vision) |
-| [infer_torchvision_resnext](https://github.com/Ikomia-hub/infer_torchvision_resnext) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | ResNeXt inference model for image classification | [pytorch/vision](https://github.com/pytorch/vision) |
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Object detection
-
-| Name | Language | Description | Source code |
-| --- | --- | --- | --- |
-| [infer_face_detection_kornia](https://github.com/Ikomia-hub/infer_face_detection_kornia) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Face detection using kornia | [kornia/kornia](https://github.com/kornia/kornia) |
-| [infer_face_detector](https://github.com/Ikomia-hub/infer_face_detector) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) | Deep learning based face detector | Made with OpenCV |
-| [infer_detectron2_detection](https://github.com/Ikomia-hub/infer_detectron2_detection) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference for Detectron2 detection models | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) |
-| [infer_detectron2_retinanet](https://github.com/Ikomia-hub/infer_detectron2_retinanet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | RetinaNet inference model of Detectron2 for object detection | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) |
-| [infer_detectron2_tridentnet](https://github.com/Ikomia-hub/infer_detectron2_tridentnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | TridentNet inference model of Detectron2 for object detection | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2/tree/main/projects/TridentNet) |
-| [train_mmlab_detection](https://github.com/Ikomia-hub/train_mmlab_detection) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Train MMDET Detection models | [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) |
-| [infer_mmlab_detection](https://github.com/Ikomia-hub/infer_mmlab_detection) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference for MMDET Detection models | [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) |
-| [infer_mobilenet_ssd](https://github.com/Ikomia-hub/infer_mobilenet_ssd) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) | Single Shot Detector (SSD) for mobile and embedded vision applications | Made with OpenCV |
-| [train_torchvision_faster_rcnn](https://github.com/Ikomia-hub/train_torchvision_faster_rcnn) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Training process for Faster R-CNN convolutional network | [pytorch/vision](https://github.com/pytorch/vision) |
-| [infer_torchvision_faster_rcnn](https://github.com/Ikomia-hub/infer_torchvision_faster_rcnn) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Faster R-CNN inference model for object detection | [pytorch/vision](https://github.com/pytorch/vision) |
-| [train_yolo](https://github.com/Ikomia-hub/train_yolo) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) | Train YOLO neural network with darknet framework | [AlexeyAB/darknet](https://github.com/AlexeyAB/darknet) |
-| [infer_yolo_v3](https://github.com/Ikomia-hub/infer_yolo_v3) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) | Object detection using YOLO V3 neural network | [AlexeyAB/darknet](https://github.com/AlexeyAB/darknet) |
-| [infer_yolo_v4](https://github.com/Ikomia-hub/infer_yolo_v4) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) | Object detection using YOLO V4 neural network | [AlexeyAB/darknet](https://github.com/AlexeyAB/darknet) |
-| [train_yolo_v5](https://github.com/Ikomia-hub/train_yolo_v5) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Train Ultralytics YoloV5 object detection models | [ultralytics/yolov5](https://github.com/ultralytics/yolov5) |
-| [infer_yolo_v5](https://github.com/Ikomia-hub/infer_yolo_v5) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Ultralytics YoloV5 object detection models | [ultralytics/yolov5](https://github.com/ultralytics/yolov5) |
-| [train_yolo_v7](https://github.com/Ikomia-hub/train_yolo_v7) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Train YOLOv7 object detection models | [WongKinYiu/yolov7](https://github.com/WongKinYiu/yolov7) |
-| [infer_yolo_v7](https://github.com/Ikomia-hub/infer_yolo_v7) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | YOLOv7 object detection inference | [WongKinYiu/yolov7](https://github.com/WongKinYiu/yolov7) |
-| [train_yolor](https://github.com/Ikomia-hub/train_yolor) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Train YoloR object detection models | [WongKinYiu/yolor](https://github.com/WongKinYiu/yolor) |
-| [infer_yolor](https://github.com/Ikomia-hub/infer_yolor) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference for YoloR object detection models | [WongKinYiu/yolor](https://github.com/WongKinYiu/yolor) |
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Instance segmentation
-
-| Name | Language | Description | Source code |
-| --- | --- | --- | --- |
-| [infer_detectron2_instance_segmentation](https://github.com/Ikomia-hub/infer_detectron2_instance_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Infer Detectron2 instance segmentation models | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) |
-| [infer_detectron2_pointrend](https://github.com/Ikomia-hub/infer_detectron2_pointrend) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | PointRend inference model of Detectron2 for instance segmentation | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2/tree/main/projects/PointRend) |
-| [infer_mask_rcnn](https://github.com/Ikomia-hub/infer_mask_rcnn) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) | Semantic segmentation based on Faster R-CNN method  | Made with OpenCV |
-| [train_torchvision_mask_rcnn](https://github.com/Ikomia-hub/train_torchvision_mask_rcnn) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Training process for Mask R-CNN convolutional network | [pytorch/vision](https://github.com/pytorch/vision) |
-| [infer_torchvision_mask_rcnn](https://github.com/Ikomia-hub/infer_torchvision_mask_rcnn) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Mask R-CNN inference model for object detection and segmentation | [pytorch/vision](https://github.com/pytorch/vision) |
-| [infer_yolact](https://github.com/Ikomia-hub/infer_yolact) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | A simple, fully convolutional model for real-time instance segmentation | [dbolya/yolact](https://github.com/dbolya/yolact) |
-| [train_yolo_v7_instance_segmentation](https://github.com/Ikomia-hub/train_yolo_v7_instance_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Train YOLOv7 instance segmentation models | [WongKinYiu/yolov7](https://github.com/WongKinYiu/yolov7/tree/u7/seg) |
-| [infer_yolo_v7_instance_segmentation](https://github.com/Ikomia-hub/infer_yolo_v7_instance_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | YOLOv7 instance segmentation inference | [WongKinYiu/yolov7](https://github.com/WongKinYiu/yolov7/tree/u7/seg) |
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Semantic segmentation
-
-| Name | Language | Description | Source code |
-| --- | --- | --- | --- |
-| [train_detectron2_deeplabv3plus](https://github.com/Ikomia-hub/train_detectron2_deeplabv3plus) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Training process for DeepLabv3+ model of Detectron2 | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2/tree/main/projects/DeepLab) |
-| [infer_detectron2_deeplabv3plus](https://github.com/Ikomia-hub/infer_detectron2_deeplabv3plus) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | DeepLabv3+ inference model of Detectron2 for semantic segmentation | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2/tree/main/projects/DeepLab) |
-| [train_transunet](https://github.com/Ikomia-hub/train_transunet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Training process for TransUNet model | [Beckschen/TransUNet](https://github.com/Beckschen/TransUNet) |
-| [infer_transunet](https://github.com/Ikomia-hub/infer_transunet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | TransUNet inference for semantic segmentation | [Beckschen/TransUNet](https://github.com/Beckschen/TransUNet) |
-| [infer_hugginface_semantic_segmentation](https://github.com/Ikomia-hub/infer_huggingface_semantic_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Infer semantic segmentation models from HuggingFace | [Hugging Face](https://huggingface.co/docs/transformers/tasks/semantic_segmentation) |
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Panoptic segmentation
-
-| Name | Language | Description | Source code |
-| --- | --- | --- | --- |
-| [infer_detectron2_panoptic_segmentation](https://github.com/Ikomia-hub/infer_detectron2_panoptic_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Infer Detectron2 panoptic segmentation models | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) |
-| [infer_yolop_v2](https://github.com/Ikomia-hub/infer_yolop_v2) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Infer YOLOPv2 models for Panoptic driving Perception | [CAIC-AD/YOLOPv2](https://github.com/CAIC-AD/YOLOPv2) |
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Pose estimation
-
-| Name | Language | Description | Source code |
-| --- | --- | --- | --- |
-| [infer_detectron2_densepose](https://github.com/Ikomia-hub/infer_detectron2_densepose) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Detectron2 inference model for human pose detection | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2/tree/main/projects/DensePose)
-| [infer_detectron2_keypoints](https://github.com/Ikomia-hub/infer_detectron2_keypoints) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference for Detectron2 keypoint models | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) |
-| [infer_facemark_lbf](https://github.com/Ikomia-hub/infer_facemark_lbf) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) | Facial landmark detection using Local Binary Features (LBF) | Made with OpenCV |
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Text detection
-
-| Name | Language | Description | Source code |
-| --- | --- | --- | --- |
-| [train_mmlab_text_detection](https://github.com/Ikomia-hub/train_mmlab_text_detection) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Training process for MMOCR Text Detection | [open-mmlab/mmocr](https://github.com/open-mmlab/mmocr) |
-| [infer_mmlab_text_detection](https://github.com/Ikomia-hub/infer_mmlab_text_detection) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference for MMOCR Text Detection | [open-mmlab/mmocr](https://github.com/open-mmlab/mmocr) |
-| [infer_text_detector_east](https://github.com/Ikomia-hub/infer_text_detector_east) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) | Fast and accurate text detection in natural scenes using single neural network | Made with OpenCV |
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Text recognition
-
-| Name | Language | Description | Source code |
-| --- | --- | --- | --- |
-| [train_mmlab_text_recognition](https://github.com/Ikomia-hub/train_mmlab_text_recognition) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference for MMOCR Text Recognition   | [open-mmlab/mmocr](https://github.com/open-mmlab/mmocr) |
-| [infer_mmlab_text_recognition](https://github.com/Ikomia-hub/infer_mmlab_text_recognition) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference for MMOCR Text Recognition   | [open-mmlab/mmocr](https://github.com/open-mmlab/mmocr) |
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Background matting
-
-| Name | Language | Description | Source code |
-| --- | --- | --- | --- |
-| [infer_background_matting](https://github.com/Ikomia-hub/infer_background_matting) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Real-Time High-Resolution Background Matting | [PeterL1n/BackgroundMattingV2](https://github.com/PeterL1n/BackgroundMattingV2) |
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Style transfer
-
-| Name | Language | Description | Source code |
-| --- | --- | --- | --- |
-| [infer_neural_style_transfer](https://github.com/Ikomia-hub/infer_neural_style_transfer) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Neural network method to paint given image in the style of the reference image | [PyImageSearch](https://pyimagesearch.com/2018/08/27/neural-style-transfer-with-opencv/) |
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+| [infer_covidnet](https://github.com/Ikomia-hub/infer_covidnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | A tailored Deep Convolutional Neural Network Design for detection of COVID-19 cases from chest radiography images. | [Link](https://github.com/lindawangg/COVID-Net) |
+| [infer_emotion_fer_plus](https://github.com/Ikomia-hub/infer_emotion_fer_plus) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Facial emotion recognition using DNN trained from crowd-sourced label distribution. | [Link](https://github.com/microsoft/FERPlus) |
+| [infer_resnet_action_recognition](https://github.com/Ikomia-hub/infer_resnet_action_recognition) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Human action recognition with spatio-temporal 3D CNNs. | [Link](https://github.com/kenshohara/3D-ResNets-PyTorch) |
+| [infer_timm_image_classification](https://github.com/Ikomia-hub/infer_timm_image_classification) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Infer timm image classification models | [Link](https://github.com/rwightman/pytorch-image-models) |
+| [infer_torchvision_mnasnet](https://github.com/Ikomia-hub/infer_torchvision_mnasnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | MnasNet inference model for image classification. | [Link](https://github.com/pytorch/vision) |
+| [infer_torchvision_resnet](https://github.com/Ikomia-hub/infer_torchvision_resnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | ResNet inference model for image classification. | [Link](https://github.com/pytorch/vision) |
+| [infer_torchvision_resnext](https://github.com/Ikomia-hub/infer_torchvision_resnext) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | ResNeXt inference model for image classification. | [Link](https://github.com/pytorch/vision) |
+| [train_timm_image_classification](https://github.com/Ikomia-hub/train_timm_image_classification) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Train timm image classification models | [Link](https://github.com/rwightman/pytorch-image-models) |
+| [train_torchvision_mnasnet](https://github.com/Ikomia-hub/train_torchvision_mnasnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Training process for MnasNet convolutional network. | [Link](https://github.com/pytorch/vision) |
+| [train_torchvision_resnet](https://github.com/Ikomia-hub/train_torchvision_resnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Training process for ResNet convolutional network. | [Link](https://github.com/pytorch/vision) |
+| [train_torchvision_resnext](https://github.com/Ikomia-hub/train_torchvision_resnext) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Training process for ResNeXt convolutional network. | [Link](https://github.com/pytorch/vision) |
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
 ## Colorization
-
-| Name | Language | Description | Source code |
+| Name | Language | Description | Original repository |
 | --- | --- | --- | --- |
-| [infer_colorful_image_colorization](https://github.com/Ikomia-hub/infer_colorful_image_colorization) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Automatic colorization of grayscale image based on neural network | [richzhang/colorization](https://github.com/richzhang/colorization) |
+| [infer_colorful_image_colorization](https://github.com/Ikomia-hub/infer_colorful_image_colorization) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Automatic colorization of grayscale image based on neural network. | [Link](https://github.com/richzhang/colorization) |
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Image generation
+| Name | Language | Description | Original repository |
+| --- | --- | --- | --- |
+| [infer_hf_stable_diffusion](https://github.com/Ikomia-hub/infer_hf_stable_diffusionn) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Stable diffusion models from Hugging Face. | [Link](https://github.com/Stability-AI/stablediffusion) |
+| [infer_neural_style_transfer](https://github.com/Ikomia-hub/infer_neural_style_transfer) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Neural network method to paint given image in the style of the reference image. | [Link](https://github.com/jcjohnson/fast-neural-style) |
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
+
+## Image matting
+| Name | Language | Description | Original repository |
+| --- | --- | --- | --- |
+| [infer_background_matting](https://github.com/Ikomia-hub/infer_background_matting) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Real-Time High-Resolution Background Matting | [Link](https://github.com/PeterL1n/BackgroundMattingV2) |
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
 ## Inpainting
-
-| Name | Language | Description | Source code |
+| Name | Language | Description | Original repository |
 | --- | --- | --- | --- |
-| [infer_lama](https://github.com/Ikomia-hub/infer_lama) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Resolution-robust Large Mask Inpainting with Fourier Convolutions | [saic-mdal/lama](https://github.com/saic-mdal/lama) |
+| [infer_hf_stable_diffusion_inpaint](https://github.com/Ikomia-hub/infer_hf_stable_diffusion_inpaint) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Stable diffusion inpainting models from Hugging Face. | [Link](https://github.com/Stability-AI/stablediffusion) |
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Tracking
-
-| Name | Language | Description | Source code |
+## Instance segmentation
+| Name | Language | Description | Original repository |
 | --- | --- | --- | --- |
-| [infer_deepsort](https://github.com/Ikomia-hub/infer_deepsort) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Simple Online and Realtime Tracking with a deep association metric | [nwojke/deep_sort](https://github.com/nwojke/deep_sort) |
+| [infer_detectron2_instance_segmentation](https://github.com/Ikomia-hub/infer_detectron2_instance_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Infer Detectron2 instance segmentation models | [Link](https://github.com/facebookresearch/detectron2) |
+| [infer_detectron2_pointrend](https://github.com/Ikomia-hub/infer_detectron2_pointrend) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | PointRend inference model of Detectron2 for instance segmentation. | [Link](https://github.com/facebookresearch/detectron2/tree/master/projects/PointRend) |
+| [infer_hf_instance_seg](https://github.com/Ikomia-hub/infer_hf_instance_seg) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Instance segmentation using models from Hugging Face. | [Link](https://github.com/huggingface/transformers) |
+| [infer_mmlab_segmentation](https://github.com/Ikomia-hub/infer_mmlab_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference for MMLAB segmentation models | [Link](https://github.com/open-mmlab/mmsegmentation) |
+| [infer_sparseinst](https://github.com/Ikomia-hub/infer_sparseinst) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Infer Sparseinst instance segmentation models | [Link](https://github.com/hustvl/SparseInst) |
+| [infer_torchvision_mask_rcnn](https://github.com/Ikomia-hub/infer_torchvision_mask_rcnn) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Mask R-CNN inference model for object detection and segmentation. | [Link](https://github.com/pytorch/vision) |
+| [infer_yolact](https://github.com/Ikomia-hub/infer_yolact) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | A simple, fully convolutional model for real-time instance segmentation. | [Link](https://github.com/dbolya/yolact) |
+| [infer_yolo_v7_instance_segmentation](https://github.com/Ikomia-hub/infer_yolo_v7_instance_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference for YOLO v7 instance segmentation models | [Link](https://github.com/WongKinYiu/yolov7/tree/u7/seg) |
+| [infer_yolo_v8_seg](https://github.com/Ikomia-hub/infer_yolo_v8_seg) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference with YOLOv8 segmentation models | [Link](https://github.com/ultralytics/ultralytics) |
+| [infer_yolop_v2](https://github.com/Ikomia-hub/infer_yolop_v2) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Panoptic driving Perception using YoloPv2 | [Link](https://github.com/CAIC-AD/YOLOPv2) |
+| [train_detectron2_instance_segmentation](https://github.com/Ikomia-hub/train_detectron2_instance_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Train Detectron2 instance segmentation models | [Link](https://github.com/facebookresearch/detectron2) |
+| [train_mmlab_segmentation](https://github.com/Ikomia-hub/train_mmlab_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Train for MMLAB segmentation models | [Link](https://github.com/open-mmlab/mmsegmentation) |
+| [train_sparseinst](https://github.com/Ikomia-hub/train_sparseinst) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Train Sparseinst instance segmentation models | [Link](https://github.com/hustvl/SparseInst) |
+| [train_torchvision_mask_rcnn](https://github.com/Ikomia-hub/train_torchvision_mask_rcnn) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Training process for Mask R-CNN convolutional network. | [Link](https://github.com/pytorch/vision) |
+| [train_yolo_v7_instance_segmentation](https://github.com/Ikomia-hub/train_yolo_v7_instance_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Train for YOLO v7 instance segmentation models | [Link](https://github.com/WongKinYiu/yolov7/tree/u7/seg) |
+| [train_yolo_v8_seg](https://github.com/Ikomia-hub/train_yolo_v8_seg) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Train YOLOv8 instance segmentation models. | [Link](https://github.com/ultralytics/ultralytics) |
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Keypoints detection
+| Name | Language | Description | Original repository |
+| --- | --- | --- | --- |
+| [infer_detectron2_densepose](https://github.com/Ikomia-hub/infer_detectron2_densepose/) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Detectron2 inference model for human pose detection. | [Link](https://github.com/facebookresearch/detectron2/tree/master/projects/DensePose) |
+| [infer_detectron2_keypoints](https://github.com/Ikomia-hub/infer_detectron2_keypoints) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference for Detectron2 keypoint models | [Link](https://github.com/facebookresearch/detectron2) |
+| [infer_mmlab_pose_estimation](https://github.com/Ikomia-hub/infer_mmlab_pose_estimation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference for pose estimation models from mmpose | [Link](https://github.com/open-mmlab/mmpose) |
+| [infer_yolo_v7_keypoints](https://github.com/Ikomia-hub/infer_yolo_v7_keypoints) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | YOLOv7 pose estimation models. | [Link](https://github.com/WongKinYiu/yolov7) |
+| [infer_yolo_v8_pose_estimation](https://github.com/Ikomia-hub/infer_yolo_v8_pose_estimation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference with YOLOv8 pose estimation models | [Link](https://github.com/ultralytics/ultralytics) |
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
+
+## Object Detection
+| Name | Language | Description | Original repository |
+| --- | --- | --- | --- |
+| [infer_detectron2_detection](https://github.com/Ikomia-hub/infer_detectron2_detection) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference for Detectron2 detection models | [Link](https://github.com/facebookresearch/detectron2) |
+| [infer_detectron2_retinanet](https://github.com/Ikomia-hub/infer_detectron2_retinanet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | RetinaNet inference model of Detectron2 for object detection. | [Link](https://github.com/facebookresearch/detectron2) |
+| [infer_detectron2_tridentnet](https://github.com/Ikomia-hub/infer_detectron2_tridentnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | TridentNet inference model of Detectron2 for object detection. | [Link](https://github.com/facebookresearch/detectron2/tree/master/projects/TridentNet) |
+| [infer_face_detection_kornia](https://github.com/Ikomia-hub/infer_face_detection_kornia) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Face detection using the Kornia API | [Link](https://github.com/kornia/kornia/tree/master/examples/face_detection) |
+| [infer_grounding_dino](https://github.com/Ikomia-hub/infer_grounding_dino) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference of the Grounding DINO model | [Link](https://github.com/IDEA-Research/GroundingDINO) |
+| [infer_mmlab_detection](https://github.com/Ikomia-hub/infer_mmlab_detection) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference for MMDET from MMLAB detection models | [Link](https://github.com/open-mmlab/mmdetection) |
+| [infer_torchvision_faster_rcnn](https://github.com/Ikomia-hub/infer_torchvision_faster_rcnn) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Faster R-CNN inference model for object detection. | [Link](https://github.com/pytorch/vision) |
+| [infer_yolo_v5](https://github.com/ultralytics/yolov5) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Ultralytics YoloV5 object detection models. | Made by Ikomia |
+| [infer_yolo_v7](https://github.com/Ikomia-hub/infer_yolo_v7) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | YOLOv7 object detection models. | [Link](https://github.com/WongKinYiu/yolov7) |
+| [infer_yolo_v8](https://github.com/Ikomia-hub/infer_yolo_v8) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference with YOLOv8 models | [Link](https://github.com/ultralytics/ultralytics) |
+| [infer_yolop_v2](https://github.com/Ikomia-hub/infer_yolop_v2) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Panoptic driving Perception using YoloPv2 | [Link](https://github.com/CAIC-AD/YOLOPv2) |
+| [infer_yolor](https://github.com/Ikomia-hub/infer_yolor) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference for YoloR object detection models | [Link](https://github.com/WongKinYiu/yolor) |
+| [train_detectron2_detection](https://github.com/Ikomia-hub/train_detectron2_detection) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Train for Detectron2 detection models | [Link](https://github.com/facebookresearch/detectron2) |
+| [train_mmlab_detection](https://github.com/Ikomia-hub/train_mmlab_detection) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Train for MMLAB detection models | [Link](https://github.com/open-mmlab/mmdetection) |
+| [train_torchvision_faster_rcnn](https://github.com/Ikomia-hub/train_torchvision_faster_rcnn) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Training process for Faster R-CNN convolutional network. | [Link](https://github.com/pytorch/vision) |
+| [train_yolo_v5](https://github.com/Ikomia-hub/train_yolo_v5) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Train Ultralytics YoloV5 object detection models. | [Link](https://github.com/ultralytics/yolov5) |
+| [train_yolo_v7](https://github.com/Ikomia-hub/train_yolo_v7) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Train YOLOv7 object detection models. | [Link](https://github.com/WongKinYiu/yolov7) |
+| [train_yolo_v8](https://github.com/Ikomia-hub/train_yolo_v8) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Train YOLOv8 object detection models. | [Link](https://github.com/ultralytics/ultralytics) |
+| [train_yolor](https://github.com/Ikomia-hub/train_yolor) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Train YoloR object detection models | [Link](https://github.com/WongKinYiu/yolor) |
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
+
+## Object tracking
+| Name | Language | Description | Original repository |
+| --- | --- | --- | --- |
+| [infer_deepsort](https://github.com/Ikomia-hub/infer_deepsort) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Multiple Object Tracking algorithm (MOT) combining a deep association metricwith the well known SORT algorithm for better performance. | [Link](https://github.com/nwojke/deep_sort) |
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
+
+## OCR
+| Name | Language | Description | Original repository |
+| --- | --- | --- | --- |
+| [infer_mmlab_text_detection](https://github.com/Ikomia-hub/infer_mmlab_text_detection) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference for MMOCR from MMLAB text detection models | [Link](https://github.com/open-mmlab/mmocr) |
+| [infer_mmlab_text_recognition](https://github.com/Ikomia-hub/infer_mmlab_text_recognition) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference for MMOCR from MMLAB text recognition models | [Link](https://github.com/open-mmlab/mmocr) |
+| [train_mmlab_text_detection](https://github.com/Ikomia-hub/train_mmlab_text_detection) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Training process for MMOCR from MMLAB in text detection | [Link](https://github.com/open-mmlab/mmocr) |
+| [train_mmlab_text_recognition](https://github.com/Ikomia-hub/train_mmlab_text_recognition) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Training process for MMOCR from MMLAB in text recognition | [Link](https://github.com/open-mmlab/mmocr) |
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
 ## Optical flow
-
-| Name | Language | Description | Source code |
+| Name | Language | Description | Original repository |
 | --- | --- | --- | --- |
-| [infer_raft_optical_flow](https://github.com/Ikomia-hub/infer_raft_optical_flow) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Estimate the optical flow from a video using a RAFT model | [princeton-vl/RAFT](https://github.com/princeton-vl/RAFT) |
+| [infer_raft_optical_flow](https://github.com/Ikomia-hub/infer_raft_optical_flow) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Estimate the optical flow from a video using a RAFT model. | [Link](https://github.com/princeton-vl/RAFT) |
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Action recognition
-
-| Name | Language | Description | Source code |
+## Panoptic segmentation
+| Name | Language | Description | Original repository |
 | --- | --- | --- | --- |
-| [infer_resnet_action_recognition](https://github.com/Ikomia-hub/infer_resnet_action_recognition) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Human action recognition with spatio-temporal 3D CNNs | [kenshohara/3D-ResNets-PyTorch](https://github.com/kenshohara/3D-ResNets-PyTorch) |
+| [infer_detectron2_panoptic_segmentation](https://github.com/facebookresearch/detectron2) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Infer Detectron2 panoptic segmentation models | Made by Ikomia |
+| [infer_hf_image_seg](https://github.com/huggingface/transformers) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Panoptic segmentation using models from Hugging Face.  | Made by Ikomia |
+| [infer_mmlab_segmentation](https://github.com/Ikomia-hub/infer_mmlab_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference for MMLAB segmentation models | [Link](https://github.com/open-mmlab/mmsegmentation) |
+| [train_mmlab_segmentation](https://github.com/Ikomia-hub/train_mmlab_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Train for MMLAB segmentation models | [Link](https://github.com/open-mmlab/mmsegmentation) |
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Emotion recognition
-
-| Name | Language | Description | Source code |
+## Semantic segmentation
+| Name | Language | Description | Original repository |
 | --- | --- | --- | --- |
-| [infer_emotion_fer_plus](https://github.com/Ikomia-hub/infer_emotion_fer_plus) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Facial emotion recognition using DNN trained from crowd-sourced label distribution | [microsoft/FERPlus](https://github.com/microsoft/FERPlus) |
+| [infer_detectron2_deeplabv3plus](https://github.com/Ikomia-hub/infer_detectron2_deeplabv3plus) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | DeepLabv3+ inference model of Detectron2 for semantic segmentation. | [Link](https://github.com/facebookresearch/detectron2) |
+| [infer_hf_semantic_seg](https://github.com/Ikomia-hub/infer_hf_semantic_seg) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Semantic segmentation using models from Hugging Face. | [Link](https://github.com/huggingface/transformers) |
+| [infer_mmlab_segmentation](https://github.com/Ikomia-hub/infer_mmlab_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference for MMLAB segmentation models | [Link](https://github.com/open-mmlab/mmsegmentation) |
+| [infer_segment_anything](https://github.com/Ikomia-hub/infer_segment_anything) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference for Segment Anything Model (SAM). | [Link](https://github.com/facebookresearch/segment-anything) |
+| [infer_transunet](https://github.com/Ikomia-hub/infer_transunet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | TransUNet inference for semantic segmentation | [Link](https://github.com/Beckschen/TransUNet) |
+| [infer_unet](https://github.com/Ikomia-hub/infer_unet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Multi-class semantic segmentation using Unet, the default model was trained on Kaggle's Carvana Images dataset | [Link](https://github.com/milesial/Pytorch-UNet) |
+| [infer_yolop_v2](https://github.com/Ikomia-hub/infer_yolop_v2) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Panoptic driving Perception using YoloPv2 | [Link](https://github.com/CAIC-AD/YOLOPv2) |
+| [train_detectron2_deeplabv3plus](https://github.com/Ikomia-hub/train_detectron2_deeplabv3plus) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Training process for DeepLabv3+ model of Detectron2. | [Link](https://github.com/facebookresearch/detectron2) |
+| [train_hf_semantic_seg](https://github.com/Ikomia-hub/train_hf_semantic_seg) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Train models for semantic segmentationwith transformers from HuggingFace. | [Link](https://github.com/huggingface/transformers) |
+| [train_mmlab_segmentation](https://github.com/Ikomia-hub/train_mmlab_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Train for MMLAB segmentation models | [Link](https://github.com/open-mmlab/mmsegmentation) |
+| [train_transunet](https://github.com/Ikomia-hub/train_transunet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Training process for TransUNet model.  | [Link](https://github.com/Beckschen/TransUNet) |
+| [train_unet](https://github.com/Ikomia-hub/train_unet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | multi-class semantic segmentation using Unet | [Link](https://github.com/milesial/Pytorch-UNet) |
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Scikit
-
-| Name | Language | Description | Source code |
+## Super resolution
+| Name | Language | Description | Original repository |
 | --- | --- | --- | --- |
-| [skimage_morpho_snakes](https://github.com/Ikomia-hub/skimage_morpho_snakes) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Morphological active contour segmentation from scikit-image library | [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) |
-| [skimage_rolling_ball](https://github.com/Ikomia-hub/skimage_rolling_ball) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | The rolling-ball algorithm estimates the background intensity of a grayscale image in case of uneven exposure | [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) |
-| [skimage_threshold](https://github.com/Ikomia-hub/skimage_threshold) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Compilation of well-known thresholding methods from scikit-image library | [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) |
+| [infer_swinir_super_resolution](https://github.com/JingyunLiang/SwinIR) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Image restoration algorithms with Swin Transformer | Made by Ikomia |
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
