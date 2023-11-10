@@ -69,6 +69,7 @@ The main goal of Ikomia is to take existing Python code and wrap it as ready-to-
 
 | Name | Language | Description | Original repository |
 | --- | --- | --- | --- |
+| [auto_annotate](https://github.com/Ikomia-hub/auto_annotate) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Auto-annotate images with GroundingDINO and SAM models | Made by Ikomia |
 | [dataset_classification](https://github.com/Ikomia-hub/dataset_classification) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Load classification dataset | Made by Ikomia |
 | [dataset_coco](https://github.com/Ikomia-hub/dataset_coco) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Load COCO 2017 dataset | Made by Ikomia |
 | [dataset_cwfid](https://github.com/Ikomia-hub/dataset_cwfid) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Load Crop/Weed Field Image Dataset (CWFID) for semantic segmentation | [Link](https://github.com/cwfid/dataset) |
@@ -93,10 +94,12 @@ The main goal of Ikomia is to take existing Python code and wrap it as ready-to-
 | [infer_torchvision_mnasnet](https://github.com/Ikomia-hub/infer_torchvision_mnasnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | MnasNet inference model for image classification. | [Link](https://github.com/pytorch/vision) |
 | [infer_torchvision_resnet](https://github.com/Ikomia-hub/infer_torchvision_resnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | ResNet inference model for image classification. | [Link](https://github.com/pytorch/vision) |
 | [infer_torchvision_resnext](https://github.com/Ikomia-hub/infer_torchvision_resnext) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | ResNeXt inference model for image classification. | [Link](https://github.com/pytorch/vision) |
+| [infer_yolo_v8_classification](https://github.com/ultralytics/ultralytics) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference with YOLOv8 image classification models | Made by Ikomia |
 | [train_timm_image_classification](https://github.com/Ikomia-hub/train_timm_image_classification) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Train timm image classification models | [Link](https://github.com/rwightman/pytorch-image-models) |
 | [train_torchvision_mnasnet](https://github.com/Ikomia-hub/train_torchvision_mnasnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Training process for MnasNet convolutional network. | [Link](https://github.com/pytorch/vision) |
 | [train_torchvision_resnet](https://github.com/Ikomia-hub/train_torchvision_resnet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Training process for ResNet convolutional network. | [Link](https://github.com/pytorch/vision) |
 | [train_torchvision_resnext](https://github.com/Ikomia-hub/train_torchvision_resnext) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Training process for ResNeXt convolutional network. | [Link](https://github.com/pytorch/vision) |
+| [train_yolo_v8_classification](https://github.com/ultralytics/ultralytics) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Train YOLOv8 classification models. | Made by Ikomia |
 <p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
 <a name=COLORIZATION></a>
@@ -125,6 +128,8 @@ The main goal of Ikomia is to take existing Python code and wrap it as ready-to-
 | Name | Language | Description | Original repository |
 | --- | --- | --- | --- |
 | [infer_background_matting](https://github.com/Ikomia-hub/infer_background_matting) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Real-Time High-Resolution Background Matting | [Link](https://github.com/PeterL1n/BackgroundMattingV2) |
+| [infer_modnet_portrait_matting](https://github.com/Ikomia-hub/infer_modnet_portrait_matting) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference of MODNet Portrait Matting. | [Link](https://github.com/ZHKKKe/MODNet) |
+| [infer_p3m_portrait_matting](https://github.com/Ikomia-hub/infer_p3m_portrait_matting) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference of Privacy-Preserving Portrait Matting (P3M) | [Link](https://github.com/ViTAE-Transformer/P3M-Net) |
 <p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
 <a name=INPAINTING></a>
@@ -145,7 +150,6 @@ The main goal of Ikomia is to take existing Python code and wrap it as ready-to-
 | [infer_detectron2_instance_segmentation](https://github.com/Ikomia-hub/infer_detectron2_instance_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Infer Detectron2 instance segmentation models | [Link](https://github.com/facebookresearch/detectron2) |
 | [infer_detectron2_pointrend](https://github.com/Ikomia-hub/infer_detectron2_pointrend) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | PointRend inference model of Detectron2 for instance segmentation. | [Link](https://github.com/facebookresearch/detectron2/tree/master/projects/PointRend) |
 | [infer_hf_instance_seg](https://github.com/Ikomia-hub/infer_hf_instance_seg) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Instance segmentation using models from Hugging Face. | [Link](https://github.com/huggingface/transformers) |
-| [infer_mmlab_segmentation](https://github.com/Ikomia-hub/infer_mmlab_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference for MMLAB segmentation models | [Link](https://github.com/open-mmlab/mmsegmentation) |
 | [infer_sparseinst](https://github.com/Ikomia-hub/infer_sparseinst) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Infer Sparseinst instance segmentation models | [Link](https://github.com/hustvl/SparseInst) |
 | [infer_torchvision_mask_rcnn](https://github.com/Ikomia-hub/infer_torchvision_mask_rcnn) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Mask R-CNN inference model for object detection and segmentation. | [Link](https://github.com/pytorch/vision) |
 | [infer_yolact](https://github.com/Ikomia-hub/infer_yolact) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | A simple, fully convolutional model for real-time instance segmentation. | [Link](https://github.com/dbolya/yolact) |
@@ -206,6 +210,7 @@ The main goal of Ikomia is to take existing Python code and wrap it as ready-to-
 
 | Name | Language | Description | Original repository |
 | --- | --- | --- | --- |
+| [infer_bytetrack](https://github.com/Ikomia-hub/infer_bytetrack) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Infer ByteTrack for object tracking | [Link](https://github.com/ifzhang/ByteTrack) |
 | [infer_deepsort](https://github.com/Ikomia-hub/infer_deepsort) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Multiple Object Tracking algorithm (MOT) combining a deep association metricwith the well known SORT algorithm for better performance. | [Link](https://github.com/nwojke/deep_sort) |
 <p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
@@ -251,6 +256,7 @@ The main goal of Ikomia is to take existing Python code and wrap it as ready-to-
 | [infer_detectron2_deeplabv3plus](https://github.com/Ikomia-hub/infer_detectron2_deeplabv3plus) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | DeepLabv3+ inference model of Detectron2 for semantic segmentation. | [Link](https://github.com/facebookresearch/detectron2) |
 | [infer_hf_semantic_seg](https://github.com/Ikomia-hub/infer_hf_semantic_seg) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Semantic segmentation using models from Hugging Face. | [Link](https://github.com/huggingface/transformers) |
 | [infer_mmlab_segmentation](https://github.com/Ikomia-hub/infer_mmlab_segmentation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference for MMLAB segmentation models | [Link](https://github.com/open-mmlab/mmsegmentation) |
+| [infer_mobile_segment_anything](https://github.com/Ikomia-hub/infer_mobile_segment_anything) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference for Mobile Segment Anything Model (SAM). | [Link](https://github.com/ChaoningZhang/MobileSAM) |
 | [infer_segment_anything](https://github.com/Ikomia-hub/infer_segment_anything) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference for Segment Anything Model (SAM). | [Link](https://github.com/facebookresearch/segment-anything) |
 | [infer_transunet](https://github.com/Ikomia-hub/infer_transunet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | TransUNet inference for semantic segmentation | [Link](https://github.com/Beckschen/TransUNet) |
 | [infer_unet](https://github.com/Ikomia-hub/infer_unet) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Multi-class semantic segmentation using Unet, the default model was trained on Kaggle's Carvana Images dataset | [Link](https://github.com/milesial/Pytorch-UNet) |
