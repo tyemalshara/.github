@@ -184,6 +184,7 @@ The main goal of Ikomia is to take existing Python code and wrap it as ready-to-
 | [infer_mmlab_pose_estimation](https://github.com/Ikomia-hub/infer_mmlab_pose_estimation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference for pose estimation models from mmpose | [Link](https://github.com/open-mmlab/mmpose) |
 | [infer_yolo_v7_keypoints](https://github.com/Ikomia-hub/infer_yolo_v7_keypoints) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | YOLOv7 pose estimation models. | [Link](https://github.com/WongKinYiu/yolov7) |
 | [infer_yolo_v8_pose_estimation](https://github.com/Ikomia-hub/infer_yolo_v8_pose_estimation) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Inference with YOLOv8 pose estimation models | [Link](https://github.com/ultralytics/ultralytics) |
+| [train_detectron2_keypoints](https://github.com/Ikomia-hub/train_detectron2_keypoints) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | Train for Detectron2 keypoint models | [Link](https://github.com/facebookresearch/detectron2) |
 <p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
 <a name=OBJECT_DETECTION></a>
